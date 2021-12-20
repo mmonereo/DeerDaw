@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "name": "deerdaw",
+    "description": "deerdaw is a collaborative DAW social network",
+    "version": "0.0.1",
+    "author": "DeerDaw Inc. <tech@deerdaw.com>",
+    "scripts": {
+        "dev": "next dev --hostname 0.0.0.0",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@material-tailwind/react": "^0.3.4",
+        "axios": "^0.23.0",
+        "next": "^12.0.7",
+        "nprogress": "^0.2.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.7"
+    }
+}
